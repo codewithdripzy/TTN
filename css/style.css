@@ -1,0 +1,335 @@
+span, div{
+    font-family: Rubik Light;
+    font-display: optional;
+}
+.h1{
+    /* border-bottom: 1px solid red; */
+    /* background-image: url(../assets/static/Underline.png); */
+    display: inline;
+    /* background-position: center bottom; */
+    /* padding: 10px; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* width: max-content; */
+}
+.sub-title{
+    color: #ec9a1a;
+    font-size: large;
+}
+.our-father{
+    color: #ec9a1a;
+    font-weight: 750;
+}
+.fellowship{
+    color: #ec9a1a;
+    font-weight: 750;
+}
+.underlined-text{
+    background-image: url(../assets/static/Underline.png);
+    display: inline;
+    background-position: center bottom;
+    /* padding: 10px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+}
+.underline{
+    display: block;
+    text-align: center;
+    align-self: center;
+    left: 77vh;
+    /* width: 10px; */
+}
+.carousel{
+    background: #fff;
+    overflow: hidden;
+}
+.carousel-item{
+    animation: change-slide 0.3s ease-in 1;
+}
+.ets{
+    font-size: 120px;
+    font-weight: 1000;
+}
+.mainContent{
+    /* padding: 50px; */
+    padding-top: 7px;
+}
+.carousel-container{
+    height: 100vh;
+}
+.asset-bulb{
+    width: 15%;
+    bottom: 100px;
+    left: 100px;
+    animation: bounce 2s ease-in-out infinite alternate; 
+}
+.asset-circle-one{
+    animation: fade-in 1.6s ease 1 0.1s;
+    transition: 0.3s ease left;
+}
+.asset-object-one{
+    bottom: 320px;
+    width: 15%;
+    animation: drop-in 1s ease 1 alternate;
+    transition: 0.3s ease all;
+}
+.asset-protocol{
+    width: 25%;
+    right: 200px;
+    transition: 0.3s ease right;
+    opacity: 1;
+    animation: slide-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1;
+}
+.asset-circle-two{
+    right: 400px;
+    width: 550px;
+    animation: slide-left 1.6s ease 1 0.2s;
+}
+
+/* ---------------------------------------------- */
+
+.asset-border-circle-one{
+    bottom: 200px;
+    left: 70px;
+    width: 175px;
+    transition: 0.3s ease all;
+    animation: fade-in-out 2s ease infinite;
+}
+
+.asset-border-circle-two{
+    width: 75px;
+    bottom: 50px;
+    left: 250px;
+    transition: 0.3s ease all;
+    animation: fade-in-out 2s ease infinite 0.5s;
+}
+
+.asset-border-circle-three{
+    width: 125px;
+    bottom: 425px;
+    left: 270px;
+    transition: 0.3s ease all;
+    animation: fade-in-out 2s ease infinite 1s;
+}
+
+.asset-polygon{
+    bottom: 35px;
+    width: 35%;
+    animation: slide-in 1.6s ease 1;
+}
+
+.asset-ttn-member{
+    bottom: 0;
+    right: 50px;
+    animation: slide-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1;
+}
+.asset-arrow{
+    transition: 0.3s ease right;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+}
+.asset-arrow-one{
+    animation: slide-in 1.4s ease 1 alternate;
+}
+.asset-arrow-two{
+    animation: slide-in 1.6s ease 1 alternate 0.01s;
+}
+.asset-arrow-three{
+    animation: slide-in 1.8s ease 1 alternate 0.01s;
+}
+.asset-arrow-four{
+    animation: slide-in 2s ease 1 alternate 0.01s;
+}
+.asset-arrow-five{
+    animation: slide-in 2.2s ease 1 alternate 0.01s;
+}
+.asset-arrow-six{
+    animation: slide-in 2.4s ease 1 alternate 0.01s;
+}
+.asset-arrow-seven{
+    animation: slide-in 2.6s ease 1 alternate 0.01s;
+}
+.apostle-sanmi-poopola{
+    transition: 0.3s ease all;
+    bottom: 0;
+    right: 200px;
+    width: 25%;
+    animation: slide-left 2.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1 0.5s;
+}
+
+.asset-footer-one{
+    background-color: red;
+}
+.carousel-text{
+    display: block;
+}
+.events-list{
+    position: relative;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 250px;
+    width: 100%;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.events-list::-webkit-scrollbar{
+    display: none;
+}
+.event-scroll-btn-container{
+    position: absolute;
+    top: 131vh;
+    /* left: 10%; */
+    padding: 10px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+.event-scroll-btn{
+    display: inline-block;
+    /* padding: 20px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px #ec9a1a;
+    background-color: #ec9a1a;
+    border: none;
+    color: #fff;
+}
+
+.event-container{
+    display: inline-flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 4px 1px #eee; */
+    border: 1px solid #eee;
+}
+.event-info{
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    display: inline-block;
+    width: 250px;
+    /* border-radius: 20px 10% 10px 10px 0px; */
+}
+.event-flyer{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px 0px 0px 10px;
+}
+.event-title{
+    font-size: x-large;
+}
+.event-location{
+    font-size: small;
+    white-space: break-spaces;
+    text-align: center;
+    /* width: min-content; */
+}
+.event-time{
+    font-size: small;
+    color: #454545;
+}
+.interested-btn{
+    background-color: #ec9a1a;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-family: Rubik;
+    box-shadow: 0px 0px 4px 0px #ec9a1a;
+}
+.prayer-req{
+    resize: none;
+}
+.form-section-one, .form-section-two{
+    justify-content: space-between;
+}
+.form-sections{
+    row-gap: 10px;
+}
+.church_branches{
+    display: block;
+    /* clip-path: inset(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%); */
+    background-color: #ffcca8;
+    padding: 50px;
+    box-shadow: inset 0px 0px 4px 0px #ababab;
+}
+
+/* ---------------- Animations ----------------- */
+
+@keyframes change-slide {
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0;
+    }
+}
+@keyframes bounce {
+    from{
+        bottom: 50px;
+    }
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        right: -100%;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes drop-in {
+    from{
+        bottom: 100%;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes slide-left{
+    from{
+        right: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes slide-up{
+    from{
+        bottom: -100%;
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in-out {
+    from{
+        transition: 0.3s ease all;
+        opacity: 1;
+        transform: scale(0.7);
+    }
+    to{
+        transition: 0.3s ease all;
+        opacity: 0;
+        transform: scale(1.3);
+    }
+}
+
+@keyframes slide-in{
+    from{
+        right: -100%;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,110 @@
+.pre-footer-carousel{
+    background-color: #ec9a1a;
+}
+.newsletter-form{
+    row-gap: 10px;
+    /* background-color: #ec9b1a81; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom-left-radius: 300px 10%;
+    border-bottom-right-radius: 300px 10%;
+}
+.newsletter-form input{
+    font-family: rubik;
+    border-radius: 50px;
+}
+.newsletter-form button{
+    background-color: #ec9a1a;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 4px 0px #ec9a1a;
+    font-family: rubik;
+}
+.benediction-word{
+    display: inline-block;
+    width: 300px;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.footer{
+    height: max-content;
+    background: linear-gradient(180deg, #fff, #fff, #ec9a1a);
+    margin-top: 700px;
+    clip-path: inset(0 18%, 50% 20%, 100% 0, 100% 100%, 0% 100% round 10px);
+    border-radius: 0px 0px 10px 10px;
+    font-family: rubik;
+}
+.footer-asset{
+    display: none;
+    transition: 0.3s ease all;
+}
+.footer-asset-main{
+    margin-top: 50px;
+}
+.footer-asset-one{
+    animation: slide-half-up 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1;
+}
+.footer-asset-two{
+    animation: slide-up-footer 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1;
+}
+.footer-asset-three{
+    animation: slide-up-footer 2.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1;
+}
+.footer-content{
+    margin: 0px;
+    transition: none;
+}
+.footer-content *{
+    transition: none;
+}
+.footer-content div{
+    max-height: 300px;
+}
+.footer-logo{
+    /* padding: 20px; */
+    display: none;
+    animation: slide-left 2.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1 0.5s;
+}
+.footer-foot {
+    background: #000;
+}
+.social-links{
+    display: block;
+}
+.social-links a{
+    font-size: x-large;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 10px;
+    text-align: center;
+}
+.social-links a:first-child{
+    color: #1877F2;
+}
+.social-links a:nth-child(2){
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584,  #FD1D1D,  #F77737, #FCAF45,  #FFDC80);
+    padding: 0px 7px;
+    border-radius: 10px;
+}
+.social-links a:nth-child(3){
+    color: #1DA1F2;
+}
+.social-links a:last-child{
+    color: #CD201F;
+}
+@keyframes slide-up-footer {
+    from{
+        position: fixed;
+        bottom: -100%;
+    }
+}
+
+@keyframes slide-half-up {
+    from{
+        position: fixed;
+        bottom: -50%;
+    }
+}

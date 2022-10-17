@@ -1,0 +1,18 @@
+<svg width="1728" height="857" viewBox="0 0 1728 857" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1743 27C1637.09 148.645 1308.76 69.8164 1141.32 131.267C600.165 329.871 548.722 209.881 -4.57764e-05 103.959V857H1743V27Z" fill="#EC9A1A" fill-opacity="0.25"/>
+<path d="M5.56241 52.9691L-7.5 38.5266V58V857V864.5H0H1743H1750.5V857V132.085V123.063L1741.63 124.711C1609.16 149.328 1505.61 174.735 1417.31 196.402C1414.01 197.21 1410.74 198.013 1407.49 198.811C1316.97 221.01 1242.63 238.914 1168.62 247.713C1021.11 265.249 874.202 246.699 604.176 151.301C561.27 136.143 508.475 129.755 452.326 126.712C415.962 124.741 377.743 124.16 339.617 123.581C318.935 123.267 298.28 122.954 277.963 122.419C219.896 120.89 164.28 117.556 116.708 107.431C69.0553 97.2892 30.4958 80.5368 5.56241 52.9691Z" fill="url(#paint0_linear_11_34)" stroke="white" stroke-width="15"/>
+<g id='crossonhill'>
+    <rect x="1213.64" width="15.5324" height="123.11" rx="5" fill="#FAE6C6"/>
+    <rect x="1178.49" y="45.8645" width="15.2882" height="85.8367" rx="5" transform="rotate(-90 1178.49 45.8645)" fill="#FAE6C6"/>
+    <rect x="1286.53" y="45.6699" width="9.85625" height="78.121" rx="4.92813" fill="#FAE6C6"/>
+    <rect x="1264.22" y="74.7737" width="9.7013" height="54.4688" rx="4.85065" transform="rotate(-90 1264.22 74.7737)" fill="#FAE6C6"/>
+    <rect x="1145.17" y="58.5481" width="10.2356" height="81.1278" rx="5" fill="#FAE6C6"/>
+    <rect x="1122" y="88.7722" width="10.0747" height="56.5652" rx="5" transform="rotate(-90 1122 88.7722)" fill="#FAE6C6"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_11_34" x1="533.088" y1="603.678" x2="2224.64" y2="603.678" gradientUnits="userSpaceOnUse">
+<stop offset="0.202016" stop-color="#EC9A1A"/>
+<stop offset="1" stop-color="#EC9A1A" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

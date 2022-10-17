@@ -1,0 +1,13 @@
+.nav{
+    padding: 0px 10px; 
+}
+.nav-logo{
+    width: 75px;
+}
+.nav-content{
+}
+.nav-btn{
+    border-radius: 20px;
+    background-color: #000;
+    padding: 10px 15px;
+}

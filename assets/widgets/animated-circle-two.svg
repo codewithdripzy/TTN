@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="141px" height="141px" viewBox="0 0 141 141" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 70.5C0 31.5639 31.5639 0 70.5 0C109.436 0 141 31.5639 141 70.5C141 109.436 109.436 141 70.5 141C31.5639 141 0 109.436 0 70.5Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Oval-3">
+    <g clip-path="url(#clip_1)">
+      <use xlink:href="#path_1" fill="none" stroke="#F8C822" stroke-width="20" />
+    </g>
+  </g>
+</svg>
